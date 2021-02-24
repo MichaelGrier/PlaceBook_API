@@ -24,6 +24,9 @@ npm-debug.log
 # OSX hidden files
 .DS_Store
 
+# Image uploads
+uploads/
+
 # misc
 .eslintrc
 .prettierrc
