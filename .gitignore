@@ -25,7 +25,8 @@ npm-debug.log
 .DS_Store
 
 # Image uploads
-uploads/
+uploads/images/
+!uploads/images/.gitkeep
 
 # misc
 .eslintrc
