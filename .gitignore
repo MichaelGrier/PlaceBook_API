@@ -32,4 +32,4 @@ uploads/images/
 .eslintrc
 .prettierrc
 
-.nodemon.json
+nodemon.json
