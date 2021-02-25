@@ -60,7 +60,7 @@ app.use((error, req, res, next) => {
 // connect to db and open web server
 mongoose
   .connect(
-    'mongodb+srv://MichaelGrier:D8Tczb8JXMkmTNHx@cluster0.twvoa.mongodb.net/PlaceBook?retryWrites=true&w=majority',
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.twvoa.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

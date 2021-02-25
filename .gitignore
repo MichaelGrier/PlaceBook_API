@@ -26,8 +26,10 @@ npm-debug.log
 
 # Image uploads
 uploads/images/
-!uploads/images/.gitkeep
+!images/.gitkeep
 
 # misc
 .eslintrc
 .prettierrc
+
+.nodemon.json

@@ -16,7 +16,7 @@ module.exports = (req, res, next) => {
     }
 
     // verify token and add userId to header
-    const decodedToken = jwt.verify(token, 'nami_is_the_cutest_cat');
+    const decodedToken = jwt.verify(token, process.env.JWT_KEY);
     req.userData = { userId: decodedToken.userId };
     next();
   } catch (err) {

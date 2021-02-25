@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "PlaceBook",
+    "DB_PASSWORD": "fKPAkA1k5YtCbjYJ",
+    "DB_NAME": "PlaceBook",
+    "GOOGLE_API_KEY": "AIzaSyCJIsWrzWQ-ReqvDgsa_ZSxEp5Utqv1Al0",
+    "JWT_KEY": "nami_is_the_cutest_cat"
+  }
+}
