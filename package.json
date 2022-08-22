@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "app.js"
+    "start": "nodemon app.js",
+    "heroku-postbuild": "npm install && npm run build && npm install -g serve"
   },
   "author": "Michael Grier",
   "license": "ISC",
